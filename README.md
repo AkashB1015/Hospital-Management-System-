@@ -53,12 +53,22 @@
  ---
  
 
-# 🔐 Role-Based Login Pages
+# 🔐 Role-Based Login Pages (Same type login page )
 
 ---
 
 ## 👨‍💼 Admin Login
-- Static login page for admin access.  
+- Static login page for admin access.
+
+## 🩺 Doctor Login
+- Login page for doctor role.  
+
+## 👤 Patient Login
+- Patient login form page.
+- 
+## 👨‍🔧 Staff Login
+- Staff login page with simple UI.
+  
 <img width="1916" height="1090" alt="image" src="https://github.com/user-attachments/assets/27e3584a-b17f-4fb0-b61b-cd882cef5a44" />
 <img width="1919" height="1093" alt="image" src="https://github.com/user-attachments/assets/c8e77c12-6731-44bd-a88f-c3c7f3b41da4" />
 
@@ -68,12 +78,10 @@
 ## 🩺 Doctor Login
 - Login page for doctor role.  
 
----
 
 ## 👤 Patient Login
 - Patient login form page.  
 
----
 
 ## 👨‍🔧 Staff Login
 - Staff login page with simple UI.  
@@ -85,13 +93,16 @@
 
 Each role has its own static dashboard:
 
-- **Admin Dashboard** – Displays admin overview sections.  
-- **Doctor Dashboard** – Shows patient list and doctor info (static).  
+- **Admin Dashboard** – Displays admin overview sections.
+<img width="1919" height="1089" alt="image" src="https://github.com/user-attachments/assets/76bcdb60-b3b5-4cf1-9ae4-42f287285a56" />
+
+- **Doctor Dashboard** – Shows patient list and doctor info (static).
+<img width="1919" height="1088" alt="image" src="https://github.com/user-attachments/assets/28371450-d1a9-4c9a-b423-13af5fa3a974" />
+
 - **Patient Dashboard** – Shows patient info and appointments (static).  
 - **Staff Dashboard** – Staff management and details (static).  
 
-All dashboards are **static UIs**, created only for demonstration in the **CDAC WPT Module**.  
-**Image:** *(Add Dashboard screenshots for each role)*
+
 
 ---
 
@@ -113,13 +124,6 @@ All dashboards are **static UIs**, created only for demonstration in the **CDAC 
 - `Dashboard/*` – All role-based dashboards  
 - `Style sheet/*` – All CSS files  
 - `images/*` – Image assets  
-
----
-
-# 📥 How to Use the Project
-1. Download or clone the repository.  
-2. Open `home.html` or any page in your browser.  
-3. Navigate through the static pages and dashboards.
 
 ---
 
