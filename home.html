@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./Style sheet/style.css">
+  <link rel="stylesheet" href="Style sheet/home_cards.css">
+  <title>CityCare Hospital — Home</title>
+
+</head>
+
+<body>
+
+  <div id="nav-bar">
+
+    <div id="title">
+      <h2>CityCare Hospital</h2>
+    </div>
+
+    <div id="nav-main">
+
+      <div id="nav-links">
+
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="appointment.html">Appointment</a>
+        <a href="contact.html">Contact</a>
+
+      </div>
+
+      <div class="dropdown">
+
+        <button class="login-btn">Signup ▾</button>
+
+        <div class="dropdown-content">
+
+          <a href="./Login/AdminLogin.html">Admin</a>
+          <a href="./Login/DoctorLogin.html">Doctor</a>
+          <a href="./Login/StaffLogin.html">Staff</a>
+          <a href="./Login/PatientLogin.html">Patient</a>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+    <section class="hos-section">
+
+      <div class="hos-content">
+
+        <h1>Welcome to CityCare Hospital</h1>
+        <p>Your trusted healthcare partner providing world-class medical services</p>
+
+        <div class="hos-buttons">
+
+          <a href="appointment.html" class="btn-primary">Book Appointment</a>
+          <a href="services.html" class="btn-secondary">Our Services</a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <section>
+      <div id="cards-container1">
+
+        <div id="card-1">
+
+          <img src="/images/cards/doctor_card.png" alt="Doctors Team">
+          <h2>Top Doctors Team</h2>
+          <p>Meet our professional doctors dedicated to providing the best medical care for every patient.</p>
+          <br><br>
+         
+
+        </div>
+
+        <div id="card-2">
+
+          <img src="/images/cards/lab_card.png" alt="Labs Facilities">
+          <h2>Top Labs & Facilities</h2>
+          <p>We offer advanced laboratory facilities with accurate diagnostic and testing services.</p>
+          <br><br>
+    
+
+        </div>
+
+        <div id="card-3">
+
+          <img src="/images/cards/sevice_card.png" alt="Emergency Service">
+          <h2>Emergency 24x7 Service</h2>
+          <p>Round-the-clock emergency care with ambulance and ICU support for critical cases.</p>
+          <br><br>
+     
+
+        </div>
+    </section>
+
+    <section>
+      <div id="feedback-section">
+
+        <h2>Your Feedback</h2>
+        <p>Your opinion helps us improve our services and provide you with the best care possible. Please share your
+          thoughts below.</p>
+
+        <form id="feedback-form">
+
+          <div class="form-row">
+
+            <input type="text" placeholder="Your Name" id="fb-name" required>
+            <input type="email" placeholder="Your Email" id="fb-email" required>
+
+          </div>
+
+          <div class="form-row">
+
+            <textarea rows="5" placeholder="Write your feedback..." id="fb-message"></textarea>
+            
+          </div>
+
+          <button type="submit">Submit Feedback</button>
+
+        </form>
+
+      </div>
+    </section>
+
+
+
+    <footer class="simple-footer">
+
+      <div class="container">
+
+        <div class="footer-content">
+
+          <div class="footer-info">
+
+            <h3>CityCare Hospital</h3>
+            <p> +1 (555) 123-4567 | info@citycarehospital.com</p>
+            <p> 123 Healthcare Street, Medical City, Mumbai</p>
+
+          </div>
+         <div class="footer-info">
+
+        <h3>Developed By</h3>
+          <p> Team : 16 (CDAC-Mumbai)</p>
+         <p>Akash Bhadane   </p>
+  
+          </div>
+          <div class="footer-links">
+
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+
+          </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+          <p>&copy; 2025 CityCare Hospital. All rights reserved.</p>
+
+        </div>
+      </div>
+    </footer>
+
+    <script>
+
+      function submitFeedback(e) {
+
+        e.preventDefault();
+
+        const name = document.getElementById('fb-name').value;
+        const email = document.getElementById('fb-email').value;
+        const message = document.getElementById('fb-message').value;
+
+        alert(
+          `Thank you for your feedback!\n\n` + `Name: ${name}\nEmail: ${email}\nMessage: ${message}\n\n` +
+          `We appreciate your time and will use your feedback to improve our services.`
+        );
+
+        document.getElementById('feedback-form').reset();
+      }
+
+      document.getElementById('feedback-form').addEventListener('submit', submitFeedback);
+
+    </script>
+</body>
+
+</html>

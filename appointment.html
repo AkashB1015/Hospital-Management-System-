@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="./Style sheet/appointment.css">
+  <link rel="stylesheet" href="Style sheet/style.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+    rel="stylesheet">
+  <title>CityCare Hospital — Appointment</title>
+
+
+</head>
+
+<body>
+
+  <div id="nav-bar">
+    <div id="title">
+      <h2>CityCare Hospital</h2>
+    </div>
+
+    <div id="nav-main">
+      <div id="nav-links">
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="appointment.html">Appointment</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <div class="dropdown">
+
+        <button class="login-btn">Signup ▾</button>
+
+        <div class="dropdown-content">
+          <a href="./Login/AdminLogin.html">Admin</a>
+          <a href="./Login/DoctorLogin.html">Doctor</a>
+          <a href="./Login/StaffLogin.html">Staff</a>
+          <a href="./Login/PatientLogin.html">Patient</a>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+<div class="appointment-container">
+
+  <h2>Book Your Appointment - CityCare Hospital</h2>
+  <p>Please fill out the form below to schedule your visit.</p>
+
+  <form class="booking-form" onsubmit="return bookAppointment(event)">
+    <div class="form-row">
+      <input type="text" id="name" placeholder="Patient Name *" required>
+      <input type="tel" id="phone" placeholder="Phone Number *" required>
+    </div>
+
+    <div class="form-row">
+      <input type="email" id="email" placeholder="Email *" required>
+      <input type="number" id="age" placeholder="Age *" required>
+    </div>
+
+    <div class="form-row">
+
+      <input type="date" id="date" required>
+      <select id="time" required>
+        <option value="">Select Time</option>
+        <option value="09:00">9:00 AM</option>
+        <option value="10:00">10:00 AM</option>
+        <option value="11:00">11:00 AM</option>
+        <option value="12:00">12:00 PM</option>
+        <option value="14:00">2:00 PM</option>
+        <option value="15:00">3:00 PM</option>
+        <option value="16:00">4:00 PM</option>
+      </select>
+
+    </div>
+
+    <div class="form-row">
+
+      <select id="department" required>
+        <option value="">Select Department</option>
+        <option value="cardiology">Cardiology</option>
+        <option value="neurology">Neurology</option>
+        <option value="pediatrics">Pediatrics</option>
+        <option value="general">General Medicine</option>
+      </select>
+      <input type="text" id="doctor" placeholder="Preferred Doctor (Optional)">
+      
+    </div>
+
+    <div class="form-row">
+      <textarea id="message" placeholder="Describe your concern (Optional)" rows="4"></textarea>
+    </div>
+
+    <button type="submit" class="submit-btn">Book Appointment</button>
+  </form>
+</div>
+
+   <footer class="simple-footer">
+
+      <div class="container">
+
+        <div class="footer-content">
+
+          <div class="footer-info">
+
+            <h3>CityCare Hospital</h3>
+            <p> +1 (555) 123-4567 | info@citycarehospital.com</p>
+            <p> 123 Healthcare Street, Medical City, Mumbai</p>
+
+          </div>
+         <div class="footer-info">
+
+        <h3>Developed By</h3>
+        
+          <p> Team : 16 (CDAC-Mumbai)</p>
+          <p>Akash Bhadane& Mickey Manohar</p>
+  
+          </div>
+          <div class="footer-links">
+
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+
+          </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+          <p>&copy; 2025 CityCare Hospital. All rights reserved.</p>
+
+        </div>
+      </div>
+    </footer>
+
+<script>
+
+  function bookAppointment(event) {
+
+    event.preventDefault();
+    alert("Your appointment has been booked successfully!");
+    return false;
+
+  }
+
+</script>
+
+</body>
+
+</html>

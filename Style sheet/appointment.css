@@ -1,0 +1,84 @@
+* {
+
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+
+}
+
+.appointment-container {
+
+  width: 90%;
+  max-width: 900px;
+  margin: 50px auto;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+
+}
+
+.appointment-container h2 {
+
+  color: #007bff;
+  margin-bottom: 10px;
+  font-size: 30px;
+
+}
+
+.appointment-container p {
+
+  color: #000000ef;
+  font-size: 15px;
+  margin-bottom: 25px;
+
+}
+
+.booking-form .form-row {
+
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.booking-form input,
+.booking-form select,
+.booking-form textarea {
+
+  flex: 1;
+  min-width: 45%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+
+}
+
+.booking-form textarea {
+
+  width: 100%;
+  resize: none;
+
+}
+
+.submit-btn {
+
+ background-color: #007bff;
+  color: #fff;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+
+}
+
+.submit-btn:hover {
+
+  background-color: #000000c7;
+
+}

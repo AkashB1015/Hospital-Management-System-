@@ -1,0 +1,128 @@
+  * {
+      font-family: "DM Sans", sans-serif;
+      font-optical-sizing: auto;
+  }
+
+body {
+      background-color: #f7faff;
+      color: #333;
+      margin: 0;
+      padding: 0;
+
+  }
+
+.about-content {
+      background-color: #e6f3ff;
+      text-align: center;
+      padding: 80px 20px;
+      margin-top: 70px;
+
+  }
+
+.about-content h2 {
+      font-size: 36px;
+      color: #004c91;
+      margin-bottom: 10px;
+  }
+
+.about-content p {
+      font-size: 18px;
+      color: #555;
+      max-width: 700px;
+      margin: 0 auto;
+  }
+
+.about-section {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 50px;
+      gap: 40px;
+      flex-wrap: wrap;
+  }
+
+.about-section img {
+      width: 40%;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      min-width: 300px;
+  }
+
+.about-text {
+      max-width: 500px;
+  }
+
+.about-text h3 {
+      font-size: 28px;
+      color: #004c91;
+      margin-bottom: 15px;
+  }
+
+.about-text p {
+      font-size: 16px;
+      line-height: 1.6;
+      color: #555;
+  }
+
+.mission-vision {
+      background-color: #dff0ff;
+      padding: 50px 20px;
+      text-align: center;
+  }
+
+.mission-vision h3 {
+      font-size: 28px;
+      color: #004c91;
+      margin-bottom: 20px;
+  }
+
+.mission-vision p {
+      max-width: 800px;
+      margin: 0 auto 30px;
+      font-size: 16px;
+      color: #444;
+      line-height: 1.6;
+  }
+
+.team {
+      padding: 50px 20px;
+      text-align: center;
+  }
+
+.team h3 {
+      font-size: 28px;
+      color: #004c91;
+      margin-bottom: 30px;
+  }
+
+.team-members {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      flex-wrap: wrap;
+  }
+
+.member {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      width: 220px;
+  }
+
+.member img {
+      width: 100%;
+      border-radius: 50%;
+      height: 200px;
+      object-fit: cover;
+  }
+
+.member h4 {
+      margin: 10px 0 5px;
+      color: #004c91;
+  }
+
+.member p {
+      font-size: 14px;
+      color: #555;
+  }

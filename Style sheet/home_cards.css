@@ -1,0 +1,166 @@
+ * {
+
+     font-family: "DM Sans", sans-serif;
+     font-optical-sizing: auto;
+
+ }
+
+ #cards-container1 {
+
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     gap: 25px;
+     padding: 30px;
+     background-color: #ffffff4d;
+
+ }
+
+ #card-1,
+ #card-2,
+ #card-3 {
+
+     width: 30%;
+     text-align: left;
+     background: white;
+     border: 1px solid #ddd;
+     border-radius: 12px;
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+     padding: 20px;
+     transition: transform 0.3s ease;
+     position: relative;
+
+ }
+
+ #card-1:hover,
+ #card-2:hover,
+ #card-3:hover {
+     transform: translateY(-6px);
+ }
+
+ #card-1 img,
+ #card-2 img,
+ #card-3 img {
+
+     width: 100%;
+     height: 250px;
+     object-fit: cover;
+     border-radius: 8px;
+ }
+
+ #card-1 h2,
+ #card-2 h2,
+ #card-3 h2 {
+
+     color: #000000;
+     margin: 15px 0 10px;
+     font-size: 22px;
+ }
+
+ #card-1 p,
+ #card-2 p,
+ #card-3 p {
+
+     font-size: 14px;
+     color: #333;
+     margin-bottom: 15px;
+
+ }
+
+ #card-1 button,
+ #card-2 button,
+ #card-3 button {
+
+     background-color: #007bff;
+     color: white;
+     border: none;
+     padding: 8px 14px;
+     border-radius: 6px;
+     cursor: pointer;
+     font-size: 14px;
+     position: absolute;
+     bottom: 20px;
+     right: 20px;
+     margin-top: 40px;
+
+ }
+
+ #card-1 button:hover,
+ #card-2 button:hover,
+ #card-3 button:hover {
+
+     background-color: #0056b3;
+
+ }
+
+
+ #feedback-section {
+    
+     background: #f8f9fa;
+     padding: 50px 20px;
+     text-align: center;
+     border-top: 2px solid #007bff;
+     font-family: "DM Sans", sans-serif;
+     font-optical-sizing: auto;
+ }
+
+ #feedback-section h2 {
+     color: #007bff;
+     margin-bottom: 10px;
+     font-size: 35px;
+ }
+
+ #feedback-section p {
+     color: #555;
+     margin-bottom: 30px;
+ }
+
+ #feedback-form {
+
+     max-width: 600px;
+     margin: 0 auto;
+
+ }
+
+ .form-row {
+
+     display: flex;
+     flex-direction: column;
+     gap: 15px;
+     margin-bottom: 20px;
+
+ }
+
+ input,
+ textarea {
+
+     width: 100%;
+     padding: 12px;
+     border: 1px solid #ccc;
+     border-radius: 6px;
+     outline: none;
+
+ }
+
+ input:focus,
+ textarea:focus {
+
+     border-color: #007bff;
+ }
+
+ button {
+
+     background: #007bff;
+     color: #fff;
+     border: none;
+     padding: 10px 22px;
+     border-radius: 6px;
+     cursor: pointer;
+
+ }
+
+ button:hover {
+
+     background: #0056b3;
+
+ }

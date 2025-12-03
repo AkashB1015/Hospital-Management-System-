@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hospital Admin Dashboard</title>
+   <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="Dashboard.css">
+</head>
+
+<body>
+
+ 
+  <div class="sidebar">
+
+    <div class="logo">CityCare</div>
+
+    <ul class="side-menu">
+
+      <li class="active"><a href="#">Dashboard</a></li>
+      <li><a href="#">Reports</a></li>
+      <li><a href="#">Settings</a></li>
+      <li><a href="/home.html" class="logout">Logout</a></li>
+
+    </ul>
+
+  </div>
+
+
+  <div class="content">
+
+<nav>
+  <h2>Doctor Dashboard</h2>
+  <div class="profile" style="display: flex; align-items: center; justify-content: flex-end;">
+    <span id="navbar-message" style="padding-right:12px"></span>
+
+    <div class="profile-pic" id="profilePic">
+      <img
+        src="https://cdn-icons-png.flaticon.com/512/847/847969.png"
+        alt="Profile"
+        id="profileIcon"
+        style="width:38px; height:38px; border-radius:50%;"
+      />
+      <input
+        type="file"
+        name="image"
+        id="img"
+        accept="image/*"
+        onchange="previewImage(event)"
+        style="display:none;"
+      />
+    </div>
+
+    <div class="profile-card" id="profileCard" style="margin-left:15px;">
+      <div class="profile-image" id="cardImageContainer">
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/847/847969.png"
+          alt="Doctor"
+          id="cardProfileImg"
+          style="width:38px; height:38px; border-radius:50%;"
+        />
+        <input
+          type="file"
+          id="cardImgInput"
+          accept="image/*"
+          onchange="previewImage(event)"
+          style="display:none;"
+        />
+      </div>
+      <h3  id="satoshi"></h3>
+   
+    </div>
+  </div>
+</nav>
+
+    <main>
+      <br><br><br>
+   
+      <div class="insights">
+        <div class="card">
+          <div class="icon"></div>
+          <div>
+            <h3>10</h3>
+            <p>Patients</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="icon"></div>
+          <div>
+            <h3>20</h3>
+            <p>Appointments</p>
+          </div>
+        </div>
+       
+        <div class="card">
+          <div class="icon"></div>
+          <div>
+            <h3>12,450</h3>
+            <p>Revenue</p>
+          </div>
+        </div>
+      </div>
+
+ 
+      <div class="bottom-data">
+        <div class="orders">
+          <h3>Recent Appointments</h3>
+          <table>
+            <thead>
+              <tr>
+                <th>Patient</th>
+                <th>Doctor</th>
+                <th>Date</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></span></td>
+              </tr>
+              <tr>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </span></td>
+              </tr>
+              <tr>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="reminders">
+          <h3>Reminders</h3>
+          <ul>
+
+          </ul>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="dashboard.js">
+
+  </script>
+
+
+</body>
+
+</html>

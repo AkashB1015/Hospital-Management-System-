@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - CityCare Hospital</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./Style sheet/contact.css">
+  <link rel="stylesheet" href="./Style sheet/style.css">
+
+</head>
+
+<body>
+  <div id="nav-bar">
+
+    <div id="title">
+
+      <h2>CityCare Hospital</h2>
+
+    </div>
+
+    <div id="nav-main">
+
+      <div id="nav-links">
+
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="appointment.html">Appointment</a>
+        <a href="contact.html">Contact</a>
+
+      </div>
+
+      <div class="dropdown">
+
+        <button class="login-btn">Signup ▾</button>
+
+        <div class="dropdown-content">
+          <a href="./Login/AdminLogin.html">Admin</a>
+          <a href="./Login/DoctorLogin.html">Doctor</a>
+          <a href="./Login/StaffLogin.html">Staff</a>
+          <a href="./Login/PatientLogin.html">Patient</a>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <section>
+
+    <div id="contact-section">
+
+      <h2>Contact Us - CityCare Hospital </h2>
+
+      <p>Fill out the form and we will get back to you
+
+      <form id="contact-form">
+
+        <div class="form-row">
+
+          <input type="text" placeholder="Full Name" id="name" required>
+          <input type="email" placeholder=" abc@gmail.com" id="email" required>
+
+        </div>
+
+        <div class="form-row">
+
+          <input type="tel" placeholder="Contact Number" id="phone" required>
+          <input type="date" placeholder="Date of Birth" id="dob" required>
+
+        </div>
+
+        <div class="form-row">
+
+          <textarea rows="5" placeholder="Write your message..." id="message" required></textarea>
+
+        </div>
+
+        <button type="submit">Submit</button>
+
+      </form>
+
+    </div>
+
+  </section>
+
+  
+   <footer class="simple-footer">
+
+      <div class="container">
+
+        <div class="footer-content">
+
+          <div class="footer-info">
+
+            <h3>CityCare Hospital</h3>
+            <p> +1 (555) 123-4567 | info@citycarehospital.com</p>
+            <p> 123 Healthcare Street, Medical City, Mumbai</p>
+
+          </div>
+         <div class="footer-info">
+
+        <h3>Developed By</h3>
+          <p> Team : 16 (CDAC-Mumbai)</p>
+          <p>Akash Bhadane & Mickey Manohar</p>
+  
+          </div>
+          <div class="footer-links">
+
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+
+          </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+          <p>&copy; 2025 CityCare Hospital. All rights reserved.</p>
+
+        </div>
+      </div>
+    </footer>
+
+  <script>
+    
+    function submitContactForm(event) {
+
+      event.preventDefault();
+
+      const name = document.getElementById('name').value;
+      const email = document.getElementById('email').value;
+      const phone = document.getElementById('phone').value;
+      const dob = document.getElementById('dob').value;
+      const message = document.getElementById('message').value;
+
+      alert(
+
+        `Thank you for contacting CityCare Hospital!\n\n` +
+        `Name: ${name}\nEmail: ${email}\nContact: ${phone}\nDOB: ${dob}\nMessage: ${message}\n\n` + `We will get back to you soon!`
+
+      );
+
+      document.getElementById('contact-form').reset();
+    }
+
+    document.getElementById('contact-form').addEventListener('submit', submitContactForm);
+  </script>
+
+</body>
+
+</html>
