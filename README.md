@@ -24,48 +24,58 @@
 ## 📖 About Page
 - Describes hospital mission, vision, and purpose.  
 - Clean content layout for user readability.  
-**Image:** *(Add About page screenshot here)*
+<img width="1899" height="1061" alt="image" src="https://github.com/user-attachments/assets/10fdbccf-58fe-46b3-a1db-1952fb904c68" />
+<img width="1900" height="397" alt="image" src="https://github.com/user-attachments/assets/113a7124-111b-4554-89e3-c3d14a434cf7" />
 
----
-
-## 📞 Contact Page
-- Contact form for user inquiries.  
-- Static front-end validation and responsive layout.  
-**Image:** *(Add Contact page screenshot here)*
 
 ---
 
 ## 🧾 Services Page
 - Displays list of hospital services using cards.  
 - Fully static with attractive UI.  
-**Image:** *(Add Services page screenshot here)*
+<img width="1898" height="1020" alt="image" src="https://github.com/user-attachments/assets/29e334a3-cd10-442c-8dcf-1b32ba72dae4" />
+<img width="1900" height="397" alt="image" src="https://github.com/user-attachments/assets/113a7124-111b-4554-89e3-c3d14a434cf7" />
 
 ---
 
 ## 📅 Appointment Page
 - Simple appointment booking form.  
 - Front-end only, no backend integration.  
-**Image:** *(Add Appointment page screenshot)*
+<img width="1859" height="1071" alt="image" src="https://github.com/user-attachments/assets/1e7524a4-aa19-47a9-8e03-535069ee4efb" />
 
 ---
 
+## 📞 Contact Page
+- Contact form for user inquiries.  
+- Static front-end validation and responsive layout.
+<img width="1884" height="1093" alt="image" src="https://github.com/user-attachments/assets/55b9ea62-b9b0-4a6a-a311-3e207c1b15b1" />
+
+ ---
+ 
+
 # 🔐 Role-Based Login Pages
+
+---
 
 ## 👨‍💼 Admin Login
 - Static login page for admin access.  
-**Image:** *(Add Admin Login screenshot)*
+
+  
+---
 
 ## 🩺 Doctor Login
 - Login page for doctor role.  
-**Image:** *(Add Doctor Login screenshot)*
+
+---
 
 ## 👤 Patient Login
 - Patient login form page.  
-**Image:** *(Add Patient Login screenshot)*
+
+---
 
 ## 👨‍🔧 Staff Login
 - Staff login page with simple UI.  
-**Image:** *(Add Staff Login screenshot)*
+
 
 ---
 
