@@ -75,20 +75,6 @@
   
 ---
 
-## 🩺 Doctor Login
-- Login page for doctor role.  
-
-
-## 👤 Patient Login
-- Patient login form page.  
-
-
-## 👨‍🔧 Staff Login
-- Staff login page with simple UI.  
-
-
----
-
 # 📊 Dashboard Pages
 
 Each role has its own static dashboard:
