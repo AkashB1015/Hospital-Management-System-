@@ -59,6 +59,8 @@
 
 ## 👨‍💼 Admin Login
 - Static login page for admin access.  
+<img width="1916" height="1090" alt="image" src="https://github.com/user-attachments/assets/27e3584a-b17f-4fb0-b61b-cd882cef5a44" />
+<img width="1919" height="1093" alt="image" src="https://github.com/user-attachments/assets/c8e77c12-6731-44bd-a88f-c3c7f3b41da4" />
 
   
 ---
