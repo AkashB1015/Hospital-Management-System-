@@ -11,7 +11,13 @@
 ## 🏠 Home Page
 - Main landing page with hospital introduction.  
 - Includes service highlights, cards, and navigation.  
-**Image:** *(Add your Home page screenshot here in GitHub)*
+
+<img width="1900" height="885" alt="image" src="https://github.com/user-attachments/assets/11e3d3ea-0838-4d4c-8aaa-5a8520d6405b" />
+<img width="1900" height="636" alt="image" src="https://github.com/user-attachments/assets/7602c514-8c61-4e39-a262-293242b09c96" />
+<img width="1902" height="1003" alt="image" src="https://github.com/user-attachments/assets/7bfdedaa-8d88-46f4-b814-f95d7e9bc08a" />
+
+
+
 
 ---
 
