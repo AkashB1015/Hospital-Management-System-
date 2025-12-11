@@ -4,7 +4,7 @@
 - This project includes multiple pages such as Home, About, Contact, Services, Appointment, Login pages, and Role-based Dashboards.  
 - All pages are created using **HTML, CSS, JavaScript, and AJAX** with a clean UI and basic client-side interactions.
 
----
+--- 
 
 # 📄 Project Pages Overview
 
